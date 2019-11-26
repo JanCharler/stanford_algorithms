@@ -1,3 +1,8 @@
+'''
+Optional question 4.
+Finds local minimum of a 2x2 array in O(n) comparisons.
+'''
+
 import pdb
 from random import randint
 import numpy as np
