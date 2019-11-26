@@ -1,4 +1,5 @@
 '''
+Optional Question 1.
 Takes an array and returns the max, second max and 
 the total number of comparisons done. Runs big-oh, n + log(2)n - 2
 '''
