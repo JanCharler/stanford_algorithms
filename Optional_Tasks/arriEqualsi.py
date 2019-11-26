@@ -1,3 +1,8 @@
+'''
+Optional question 3.
+Finds, as fast as possible, whether or not there exists an index i in array A such that A[i] = [i].
+'''
+
 import pdb
 
 def checkforai(arr, position, minpos, maxpos):
