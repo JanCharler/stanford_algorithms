@@ -1,7 +1,6 @@
 '''
-Optional question: Merge k arrays of size n.
+Optional task from video: Merge k arrays of size n.
 '''
-
 
 def merge(arr1, arr2):
 	'''
