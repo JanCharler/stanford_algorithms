@@ -1,3 +1,8 @@
+'''
+Optional question 2.
+Finds maximum element in a unimodal array in O(logn) time.
+'''
+
 steps = 0
 def find_unimodal_max(arr):
      
