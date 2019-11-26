@@ -1,4 +1,6 @@
-
+'''
+Optional question: Merge k arrays of size n.
+'''
 
 
 def merge(arr1, arr2):
@@ -43,9 +45,6 @@ def merge(arr1, arr2):
 		else:
 			resultarr[k] = arr2[j]
 			j+=1
-		# print(resultarr)
-	# print(resultarr)
-
 
 def k_merge(*args):
 
@@ -56,12 +55,8 @@ def k_merge(*args):
 		print("len of merged is; " + str(len(merged)))
 		merged = merge(merged, arrlist[i+1])
 
-
 	print(merged)
 
-
-
 if __name__ == "__main__":
-	# r = merge([1,1,2,9],[2,5,8])
+	
 	k_merge([5,6], [4,10], [1,9], [2,4],[1,10],[0,100],[3,4])
-	# print(r)
