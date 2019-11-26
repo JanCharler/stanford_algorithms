@@ -1,6 +1,10 @@
+'''
+Takes an array and returns the max, second max and 
+the total number of comparisons done. Runs big-oh, n + log(2)n - 2
+'''
+
 import pdb
 from random import randint
-
 
 comparisons = 0
 
