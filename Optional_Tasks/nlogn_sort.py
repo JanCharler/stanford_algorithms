@@ -1,3 +1,8 @@
+'''
+An implementation of merge sort. Also counts inversions without almost no
+added time.
+'''
+
 inversion = 0
 
 def merge(arr1, arr2):
